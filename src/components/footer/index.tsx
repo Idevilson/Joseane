@@ -10,12 +10,9 @@ export function Footer() {
                 <div className={styles.imageContainer}>
                     <Image
                         src="/assets/footer/footerBG.png"
-
                         alt="abstract"
-                        height={454}
-                        width="100"
                         layout={"fill"}
-                        objectFit="contain"
+                        objectFit={"fill"}
                         quality={100}
                     />
                 </div>
