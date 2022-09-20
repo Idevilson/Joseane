@@ -132,7 +132,6 @@ export function SecondSection() {
                         }}
 
                         autoplay={true}
-                        autoplayReverse={true}
 
                         defaultControlsConfig={{
                             pagingDotsStyle: {
