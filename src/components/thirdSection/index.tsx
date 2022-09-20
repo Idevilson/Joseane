@@ -174,10 +174,12 @@ export function ThirdSection() {
                                 />
                             </div>
                             <div className={styles.textBoxMobile}>
-                                <h2 className={styles.textMobile}>
-                                    Pela valorização e <br />
-                                    engajamento das mulheres
-                                </h2>
+                                <div className={styles.cardImageMobile}>
+                                    <h2 className={styles.textMobile}>
+                                        Pela valorização e <br />
+                                        engajamento das mulheres
+                                    </h2>
+                                </div>
                             </div>
                         </div>
 
