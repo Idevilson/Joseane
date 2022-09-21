@@ -12,7 +12,7 @@ export function Footer() {
                         src="/assets/footer/footerBG.png"
                         alt="abstract"
                         layout={"fill"}
-                        objectFit={"fill"}
+                        objectFit={"cover"}
                         quality={100}
                     />
                 </div>
@@ -79,8 +79,8 @@ export function Footer() {
                     <Image
                         src="/assets/footer/PSDB.png"
                         alt="Nome e número da candidata"
-                        width={211}
-                        height={48}
+                        width={127}
+                        height={29}
                         quality={100}
                     />
                 </div>
@@ -102,10 +102,8 @@ export function Footer() {
                         src="/assets/footer/footerBGMobile.png"
 
                         alt="abstract"
-
-
                         layout="fill"
-
+                        objectFit={"cover"}
                         quality={100}
                     />
                 </div>
@@ -168,13 +166,6 @@ export function Footer() {
                     <h1>
                         LEI Nº9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.632.645/0001-00
                     </h1>
-                    <Image
-                        src="/assets/footer/PSDB.png"
-                        alt="Nome e número da candidata"
-                        width={211}
-                        height={48}
-                        quality={100}
-                    />
                 </div>
             </footer>
         </>

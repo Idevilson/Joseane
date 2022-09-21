@@ -35,13 +35,11 @@ export function SecondSection() {
                             height={43}
                             quality={100}
                         />
-                        <Image
-                            src="/assets/secondSection/Text.png"
-                            alt="efeito"
-                            width={788}
-                            height={67}
-                            quality={100}
-                        />
+
+                        <h1>
+                           Por mais oportunidades para os jovens<br/>
+                            valorização das mulheres, saúde e educação.
+                        </h1>
                     </div>
 
                     <div className={styles.bodyContent}>
@@ -117,8 +115,8 @@ export function SecondSection() {
                         SOBRE MIM
                     </h1>
                     <h1>
-                        Por mais oportunidades para os jovens, valorização <br/>
-                        das mulheres, saúde e educação!
+                        Por mais oportunidades para os jovens  <br/>
+                        valorização das mulheres, saúde e educação!
                     </h1>
                 </div>
                 <div className={styles.carousel}>

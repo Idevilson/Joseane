@@ -12,13 +12,12 @@ export function FirstSection(){
                         src="/assets/firstSection/abstract.png"
                         alt="efeito"
                         layout={"fill"}
-                        objectFit={"fill"}
+                        objectFit={"cover"}
                         quality={100}
                     />
                 </div>
 
                 <div className={styles.candidatePhoto}>
-
                     <Image
                         src="/assets/firstSection/valtonia.png"
                         alt="Imagem da candidata Valtonia"
@@ -32,8 +31,8 @@ export function FirstSection(){
                     <Image
                         src="/assets/firstSection/EGenteNossa.png"
                         alt="Slogan"
-                        width={398}
-                        height={116}
+                        width={427}
+                        height={89}
                         quality={100}
                     />
                 </div>
