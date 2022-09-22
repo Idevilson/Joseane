@@ -37,27 +37,6 @@ export function Footer() {
                                     </a>
                                 </Link>
                             </div>
-
-                            <div className={styles.alignIcons}>
-                                <Link href="">
-                                    <Image
-                                        src="/assets/header/facebook.png"
-                                        alt="ícone do facebook"
-                                        width={39}
-                                        height={39}
-                                    />
-                                </Link>
-                            </div>
-                            <div className={styles.alignIcons}>
-                                <Link href="">
-                                    <Image
-                                        src="/assets/header/whatsapp.png"
-                                        alt="ícone do whatsapp"
-                                        width={39}
-                                        height={39}
-                                    />
-                                </Link>
-                            </div>
                     </div>
                 </div>
 
@@ -71,10 +50,9 @@ export function Footer() {
                     />
                 </div>
 
-
                 <div className={styles.textBottom}>
                     <h1>
-                        LEI Nº9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.632.645/0001-00
+                        LEI N°9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.546.154/0001-47 / 11.274.042/0001-37
                     </h1>
                     <Image
                         src="/assets/footer/PSDB.png"
@@ -107,6 +85,7 @@ export function Footer() {
                         quality={100}
                     />
                 </div>
+
                 <div className={styles.footerTopMobile}>
                     <Image
                         src="/assets/footer/sigaMobile.png"
@@ -118,7 +97,7 @@ export function Footer() {
                 </div>
                 <div className={styles.socialIconsContainerMobile}>
                     <div className={styles.alignIconsMobile}>
-                        <Link href="https://www.instagram.com/valtoniapalmas">
+                        <Link href="https://www.instagram.com/joseanesousaf">
                             <a  target="_blank">
                                 <Image
                                     src="/assets/footer/instagramMobile.png"
@@ -127,27 +106,6 @@ export function Footer() {
                                     height={91}
                                 />
                             </a>
-                        </Link>
-                    </div>
-
-                    <div className={styles.alignIconsMobile}>
-                        <Link href="https://www.facebook.com/Valtonia.palmas">
-                            <Image
-                                src="/assets/footer/facebookMobile.png"
-                                alt="ícone do facebook"
-                                width={91}
-                                height={91}
-                            />
-                        </Link>
-                    </div>
-                    <div className={styles.alignIconsMobile}>
-                        <Link href="https://wa.me/556392213395">
-                            <Image
-                                src="/assets/footer/whatsappMobile.png"
-                                alt="ícone do whatsapp"
-                                width={91}
-                                height={91}
-                            />
                         </Link>
                     </div>
                 </div>
@@ -164,7 +122,7 @@ export function Footer() {
 
                 <div className={styles.textBottomMobile}>
                     <h1>
-                        LEI Nº9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.632.645/0001-00
+                        LEI N°9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.546.154/0001-47 / 11.274.042/0001-37
                     </h1>
                 </div>
             </footer>
